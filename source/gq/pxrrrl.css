@@ -1,0 +1,58 @@
+a {
+  border-bottom-style: solid;
+  border-bottom-width: 0.0625em;
+  text-decoration: none;
+}
+
+a:link {
+  border-bottom-color: darkblue;
+  color: darkblue;
+}
+
+a:visited {
+  border-bottom-color: darkmagenta;
+  color: darkmagenta;
+}
+
+a:focus,
+a:hover {
+  border-bottom-color: darkred;
+  color: darkred;
+}
+
+a:active {
+  border-bottom-color: red;
+  color: red;
+}
+
+body {
+  background-color: white;
+  color: black;
+  font-family: serif;
+  line-height: 1.5;
+  margin: 1.5em 3em;
+}
+
+dd {
+  margin-left: 1.5em;
+}
+
+dl {
+  margin: 1.5em 0;
+}
+
+h1 {
+  font-size: 2.4em;
+  line-height: 1.25;
+  margin: 0.625em 0;
+}
+
+h2 {
+  font-size: 1.2em;
+  line-height: 1.25;
+  margin: 1.25em 0;
+}
+
+p {
+  margin: 1.5em 0;
+}
