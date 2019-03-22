@@ -1,27 +1,22 @@
 a {
-  border-bottom-style: solid;
-  border-bottom-width: 0.0625em;
+  border-bottom: lightgray solid 0.0625em;
   text-decoration: none;
 }
 
 a:link {
-  border-bottom-color: darkblue;
   color: darkblue;
 }
 
 a:visited {
-  border-bottom-color: darkmagenta;
   color: darkmagenta;
 }
 
 a:focus,
 a:hover {
-  border-bottom-color: darkred;
   color: darkred;
 }
 
 a:active {
-  border-bottom-color: red;
   color: red;
 }
 
