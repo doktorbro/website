@@ -1,0 +1,11 @@
+# http://httpd.apache.org/docs/current/mod/mod_expires.html
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 week"
+</IfModule>
+
+# http://httpd.apache.org/docs/current/mod/core.html#fileetag
+FileETag none
+
+# http://httpd.apache.org/docs/current/mod/core.html#adddefaultcharset
+AddDefaultCharset utf-8
