@@ -8,10 +8,10 @@ the favicon contains my initials: latin (ab) for english and german documents, c
 
 the latin favicon:
 
-    convert -size 96x96 -fill '#000000' xc:'#ffffff' -font 'Noto-Sans-Bold' -pointsize 64 -annotate +8+85 'ab' -quality 100 -colors 32 favicon-latin.png
+    convert -size 96x96 -fill '#000000' xc:'#f5f5f5' -font 'Noto-Sans-Bold' -pointsize 64 -annotate +8+85 'ab' -quality 100 -colors 64 favicon-latin.png
 
 the cyrillic favicon:
 
-    convert -size 96x96 -fill '#000000' xc:'#ffffff' -font 'Noto-Sans-Bold' -pointsize 64 -annotate +8+85 'аб' -quality 100 -colors 32 favicon-cyrillic.png
+    convert -size 96x96 -fill '#000000' xc:'#f5f5f5' -font 'Noto-Sans-Bold' -pointsize 64 -annotate +8+85 'аб' -quality 100 -colors 64 favicon-cyrillic.png
 
 [1]: https://developers.google.com/web/fundamentals/design-and-ux/browser-customization/

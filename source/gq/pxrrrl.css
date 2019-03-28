@@ -4,16 +4,16 @@ a {
 }
 
 a:link {
-  color: darkblue;
+  color: navy;
 }
 
 a:visited {
-  color: darkmagenta;
+  color: purple;
 }
 
 a:focus,
 a:hover {
-  color: darkred;
+  color: maroon;
 }
 
 a:active {
@@ -21,7 +21,7 @@ a:active {
 }
 
 body {
-  background-color: white;
+  background-color: whitesmoke;
   color: black;
   font-family: sans-serif;
   line-height: 1.625;
