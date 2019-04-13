@@ -10,5 +10,5 @@ FileETag none
 
 # https://httpd.apache.org/docs/current/mod/mod_deflate.html
 <IfModule mod_deflate.c>
-  AddOutputFilterByType DEFLATE image/x-icon text/css text/html
+  AddOutputFilterByType DEFLATE text/css text/html
 </IfModule>
