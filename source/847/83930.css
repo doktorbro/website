@@ -1,0 +1,53 @@
+a {
+  border-bottom: lightgray solid 0.0625em;
+  text-decoration: none;
+}
+
+a:link {
+  color: navy;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:focus,
+a:hover {
+  color: maroon;
+}
+
+a:active {
+  color: red;
+}
+
+body {
+  background-color: whitesmoke;
+  color: black;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 1.5em 3em;
+}
+
+dd {
+  margin-left: 1.5em;
+}
+
+dl {
+  margin: 1.5em 0;
+}
+
+h1 {
+  font-size: 2.4em;
+  line-height: 1.25;
+  margin: 0.625em 0;
+}
+
+h2 {
+  font-size: 1.2em;
+  line-height: 1.25;
+  margin: 1.25em 0;
+}
+
+p {
+  margin: 1.5em 0;
+}
