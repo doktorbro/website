@@ -2,6 +2,10 @@
 
 doktorbro.net
 
+## file names
+
+all file names must be formated as `rrr/rrrrr.ext` where `r` is a random integer between 0 and 9.
+
 ## favicons
 
 the favicon contains my initials: latin (ab) for english and german documents, cyrillic (аб) for russian documents. the colors and the font match the css entries. *noto sans* is the default sans serif font on today’s most popular operating system. the favicon size is double the [48px base][1].
