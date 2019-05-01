@@ -20,6 +20,12 @@ a:active {
   color: red;
 }
 
+blockquote {
+  border-left: 0.125em solid lightgray;
+  margin: 1.5em 0;
+  padding-left: 1.375em;
+}
+
 body {
   background-color: whitesmoke;
   color: black;
@@ -48,9 +54,11 @@ h2 {
   margin: 1.25em 0;
 }
 
-ol {
+ul {
+  list-style-type: none;
   margin: 1.5em 0;
   padding-left: 3em;
+  text-indent: -1.5em;
 }
 
 p {
