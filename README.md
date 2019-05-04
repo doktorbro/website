@@ -1,4 +1,4 @@
-# website
+# the personal website of anatol broder
 
 doktorbro.net
 
