@@ -1,5 +1,7 @@
 # the personal website of anatol broder
 
+[![Build Status](https://travis-ci.com/doktorbro/website.svg?branch=master)](https://travis-ci.com/doktorbro/website)
+
 doktorbro.net
 
 ## file names
