@@ -17,7 +17,7 @@ a:hover {
 }
 
 a:active {
-  color: red;
+  color: olive;
 }
 
 blockquote {
@@ -48,6 +48,11 @@ h2 {
 
 p {
   margin: 1.5em 0;
+}
+
+u {
+  color: red;
+  text-decoration: none;
 }
 
 ul {
