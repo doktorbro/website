@@ -1,2 +1,1 @@
-script:
-- sh script/vnu.sh
+script: ./script/vnu.sh
