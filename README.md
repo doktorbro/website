@@ -2,13 +2,13 @@
 
 [![Build Status](https://travis-ci.com/doktorbro/website.svg?branch=master)](https://travis-ci.com/doktorbro/website)
 
-## unique identifier
+## unique identifiers
 
-all unique identifiers must be a random number between 0 and 999999. for a new id use the *generate-id* script.
+unique identifiers must be random numbers between 0 and 999999. for a new identifier use the *generate-id* script.
 
 ## file names
 
-all file names must be formated as `r{3}/r{9}.ext` where `r` is a random digit and `ext` is a file extension. for new works use the *create-work* script.
+file names must be formated as `r{3}/r{9}.ext` where `r` is a random digit and `ext` is a file extension. for new works use the *create-work* script.
 
 ## favicon
 
