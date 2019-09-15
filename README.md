@@ -4,8 +4,9 @@
 
 ## file names
 
-all file names must be formated as `r{3}/r{9}.ext` where `r` is a random digit and `ext` is a file extension.
+all file names must be formated as `r{3}/r{9}.ext` where `r` is a random digit and `ext` is a file extension. for new works use the *create-work* script.
+
 
 ## favicon
 
-the favicon shows the basic colors from the stylesheet. use the *create-favicon* script.
+the favicon shows the basic colors from the stylesheet. for a new favicon use the *create-favicon* script.
