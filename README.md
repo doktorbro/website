@@ -4,10 +4,8 @@
 
 ## file names
 
-all file names must be formated as `r{3}/r{9}.ext` where `r` is a digit and `ext` is the extension. use random *[digits][2]*.
+all file names must be formated as `r{3}/r{9}.ext` where `r` is a random digit and `ext` is a file extension.
 
 ## favicon
 
 the favicon shows the basic colors from the stylesheet. use the *create-favicon* script.
-
-[2]: https://bro.doktorbro.net/950/204207232.html
