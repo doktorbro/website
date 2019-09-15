@@ -1,0 +1,3 @@
+language: generic
+install: ./script/install-vnu.sh
+script: ./script/run-vnu.sh

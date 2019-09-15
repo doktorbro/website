@@ -1,0 +1,205 @@
+a {
+  color: #05d;
+  text-decoration: none;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+blockquote {
+  border-left-style: double;
+  border-left-width: 0.25em;
+  margin: 1.5em 0;
+  padding-left: 2.75em;
+}
+
+body {
+  background-color: #eee;
+  color: #111;
+  font-family: serif;
+  font-size-adjust: 0.5;
+  font-variant-numeric: oldstyle-nums;
+  line-height: 1.5;
+  margin: 3em auto;
+  max-width: 30em;
+  text-size-adjust: none;
+  width: 95%;
+}
+
+@media (orientation: landscape) and (min-width: 60em) {
+  body {
+    font-size: 1.67vw;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 36em) {
+  body {
+    font-size: 2.78vw;
+    margin-left: 3em;
+  }
+}
+
+dd {
+  margin-left: 3em;
+}
+
+dl {
+  margin: 1.5em 0;
+}
+
+footer {
+  border-top-width: 0.25em;
+  border-top-style: solid;
+  padding-top: 1.25em;
+  margin: 3em 0;
+}
+
+footer h2::before,
+footer h3::before,
+footer h4::before,
+footer h5::before,
+footer h6::before {
+  content: none;
+}
+
+h1 {
+  font-size: 240%;
+  line-height: 1.25;
+  margin: 1.25em 0;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 120%;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.25;
+  margin: 1.25em 0;
+}
+
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+  display: block;
+}
+
+h2 {
+  counter-increment: h2;
+  counter-reset: h3;
+}
+
+h2::before {
+  content: counter(h2);
+}
+
+h3 {
+  counter-increment: h3;
+  counter-reset: h4;
+}
+
+h3::before {
+  content: counter(h2) "\2e" counter(h3);
+}
+
+h4 {
+  counter-increment: h4;
+  counter-reset: h5;
+}
+
+h4::before {
+  content: counter(h2) "\2e" counter(h3) "\2e" counter(h4);
+}
+
+h5 {
+  counter-increment: h5;
+  counter-reset: h6;
+}
+
+h5::before {
+  content: counter(h2) "\2e" counter(h3) "\2e" counter(h4) "\2e" counter(h5);
+}
+
+h6 {
+  counter-increment: h6;
+}
+
+h6::before {
+  content: counter(h2) "\2e" counter(h3) "\2e" counter(h4) "\2e" counter(h5) "\2e" counter(h6);
+}
+
+header {
+  margin: 3em 0;
+}
+
+ol {
+  counter-reset: olli;
+  list-style-type: none;
+  margin: 1.5em 0;
+  padding-left: 3em;
+}
+
+ol li::before {
+  content: counters(olli, "\2e");
+  counter-increment: olli;
+  display: block;
+  margin-left: -3em;
+}
+
+ol ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 1.5em 0;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+  margin: 1.5em 0;
+}
+
+q {
+  quotes: "\ab" "\bb" "\2039" "\203a";
+}
+
+sup {
+  font-size: 62.5%;
+  line-height: 0;
+  vertical-align: super;
+}
+
+table {
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+  margin: 1.5em 0;
+}
+
+td,
+th {
+  padding: 0 0.5em;
+  text-align: left;
+}
+
+tr:nth-child(2n+1) {
+  background-color: #fff;
+}
+
+u {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 1.5em 0;
+  padding-left: 6em;
+  text-indent: -3em;
+}
