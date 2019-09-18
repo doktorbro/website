@@ -48,6 +48,11 @@ dl {
   margin: 1.5em 0;
 }
 
+dt {
+  font-weight: bold;
+  margin-left: 3em;
+}
+
 footer {
   border-top-width: 0.25em;
   border-top-style: solid;
@@ -148,7 +153,7 @@ ol li::before {
   content: counters(olli, "\2e");
   counter-increment: olli;
   display: block;
-  margin-left: -3em;
+  font-weight: bold;
 }
 
 ol ol {
