@@ -47,10 +47,10 @@ dt {
 }
 
 footer {
-  border-top-width: 0.25em;
   border-top-style: solid;
-  padding-top: 1.25em;
+  border-top-width: 0.25em;
   margin: 3em 0;
+  padding-top: 1.25em;
 }
 
 footer h2::before,
@@ -132,7 +132,10 @@ h6::before {
 }
 
 header {
+  border-bottom-style: solid;
+  border-bottom-width: 0.25em;
   margin: 3em 0;
+  padding-bottom: 1.25em;
 }
 
 ol {
