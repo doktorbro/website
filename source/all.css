@@ -11,7 +11,7 @@ blockquote {
   border-left-style: double;
   border-left-width: 0.25em;
   margin: 1.5em 0;
-  padding-left: 2.75em;
+  padding-left: 1.25em;
 }
 
 body {
@@ -21,27 +21,20 @@ body {
   font-size-adjust: 0.5;
   font-variant-numeric: oldstyle-nums;
   line-height: 1.5;
-  margin: 3em auto;
-  max-width: 30em;
+  margin: 3em 1.5em;
   text-size-adjust: none;
-  width: 95%;
 }
 
-@media (orientation: landscape) and (min-width: 60em) {
+@media (min-width: 33em) {
   body {
-    font-size: 1.67vw;
-  }
-}
-
-@media (orientation: portrait) and (min-width: 36em) {
-  body {
-    font-size: 2.78vw;
-    margin-left: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
   }
 }
 
 dd {
-  margin-left: 3em;
+  margin-left: 1.5em;
 }
 
 dl {
@@ -50,7 +43,7 @@ dl {
 
 dt {
   font-weight: bold;
-  margin-left: 3em;
+  margin-left: 1.5em;
 }
 
 footer {
@@ -146,7 +139,7 @@ ol {
   counter-reset: olli;
   list-style-type: none;
   margin: 1.5em 0;
-  padding-left: 3em;
+  padding-left: 1.5em;
 }
 
 ol li::before {
@@ -205,6 +198,6 @@ u {
 ul {
   list-style-type: none;
   margin: 1.5em 0;
-  padding-left: 6em;
-  text-indent: -3em;
+  padding-left: 3em;
+  text-indent: -1.5em;
 }
