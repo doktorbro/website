@@ -34,7 +34,8 @@ body {
 }
 
 dd {
-  margin-left: 1.5em;
+  margin-left: 0;
+  text-indent: 1.5em;
 }
 
 dl {
@@ -42,8 +43,8 @@ dl {
 }
 
 dt {
+  font-style: italic;
   font-weight: bold;
-  margin-left: 1.5em;
 }
 
 footer {
@@ -149,7 +150,9 @@ ol li::before {
   content: counters(olli, "\2e");
   counter-increment: olli;
   display: block;
+  font-style: italic;
   font-weight: bold;
+  margin-left: -1.5em;
 }
 
 ol ol {
