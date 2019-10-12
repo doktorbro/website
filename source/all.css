@@ -127,12 +127,6 @@ p {
   margin: 1.5em 0;
 }
 
-pre {
-  font-family: monospace, monospace;
-  font-size: 1em;
-  margin: 1.5em 0;
-}
-
 q {
   quotes: "\ab" "\bb" "\2039" "\203a";
 }
