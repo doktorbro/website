@@ -98,13 +98,6 @@ h3::before {
   content: counter(h2) "\2e" counter(h3);
 }
 
-header {
-  border-bottom-style: solid;
-  border-bottom-width: 0.25em;
-  margin: 3em 0;
-  padding-bottom: 1.25em;
-}
-
 ol {
   counter-reset: olli;
   list-style-type: none;
