@@ -1,4 +1,4 @@
-# [doktorbro](https://bro.doktorbro.net/)
+# [the archive of anatol broder](https://bro.doktorbro.net/)
 
 [![Build Status](https://travis-ci.com/doktorbro/website.svg?branch=master)](https://travis-ci.com/doktorbro/website)
 
