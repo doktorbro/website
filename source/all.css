@@ -15,14 +15,7 @@ blockquote {
 }
 
 body {
-  background-color: #eee;
-  color: #111;
-  font-family: serif;
-  font-size-adjust: 0.5;
-  font-variant-numeric: oldstyle-nums;
-  line-height: 1.5;
   margin: 3em 1.5em;
-  text-size-adjust: none;
 }
 
 @media (min-width: 33em) {
@@ -96,6 +89,16 @@ h3 {
 
 h3::before {
   content: counter(h2) "\2e" counter(h3);
+}
+
+html {
+  background-color: #eee;
+  color: #111;
+  font-family: serif;
+  font-size-adjust: 0.5;
+  font-variant-numeric: oldstyle-nums;
+  line-height: 1.5;
+  text-size-adjust: none;
 }
 
 ol {
