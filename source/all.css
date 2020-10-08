@@ -28,6 +28,8 @@ body {
 
 dd {
   margin: 0;
+  padding-left: 1.625em;
+  text-indent: -1.625em;
 }
 
 dl {
@@ -134,6 +136,10 @@ u {
 ul {
   list-style-type: none;
   margin: 1.625em 0;
-  padding-left: 3.25em;
+  padding-left: 1.625em;
+}
+
+ul li {
+  padding-left: 1.625em;
   text-indent: -1.625em;
 }
