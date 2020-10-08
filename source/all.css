@@ -47,10 +47,7 @@ footer {
 }
 
 footer h2::before,
-footer h3::before,
-footer h4::before,
-footer h5::before,
-footer h6::before {
+footer h3::before {
   content: none;
 }
 
