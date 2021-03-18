@@ -10,16 +10,16 @@ abbr {
 blockquote {
   border-left-style: double;
   border-left-width: 0.25em;
-  margin: 1.625em 0;
-  padding-left: 1.375em;
+  margin: 1.5em 0;
+  padding-left: 1.25em;
 }
 
 body {
-  margin: 3.25em 1.625em;
-  max-width: 32.5em;
+  margin: 3em 1.5em;
+  max-width: 34em;
 }
 
-@media (min-width: 34.125em) {
+@media (min-width: 37em) {
   body {
     margin-right: auto;
   }
@@ -27,13 +27,13 @@ body {
 
 dd {
   margin: 0;
-  padding-left: 1.625em;
-  text-indent: -1.625em;
+  padding-left: 1.5em;
+  text-indent: -1.5em;
 }
 
 dl {
-  margin: 1.625em 0;
-  padding-left: 1.625em;
+  margin: 1.5em 0;
+  padding-left: 1.5em;
 }
 
 dt {
@@ -53,18 +53,18 @@ footer h3::before {
 }
 
 h1 {
-  font-size: 250%;
-  line-height: 1.3;
-  margin: 1.3em 0;
+  font-size: 240%;
+  line-height: 1.25;
+  margin: 1.25em 0;
 }
 
 h2,
 h3 {
-  font-size: 125%;
+  font-size: 120%;
   font-style: normal;
   font-weight: bold;
-  line-height: 1.3;
-  margin: 1.3em 0;
+  line-height: 1.25;
+  margin: 1.25em 0;
 }
 
 h2::before,
@@ -94,17 +94,17 @@ html {
   background-color: #eee;
   color: #111;
   font-family: serif;
-  font-size-adjust: 0.54;
+  font-size-adjust: 0.5;
   font-variant-numeric: oldstyle-nums;
-  line-height: 1.625;
+  line-height: 1.5;
   text-size-adjust: none;
 }
 
 ol {
   counter-reset: olli;
   list-style-type: none;
-  margin: 1.625em 0;
-  padding-left: 1.625em;
+  margin: 1.5em 0;
+  padding-left: 1.5em;
 }
 
 ol li::before {
@@ -120,7 +120,7 @@ ol ol {
 }
 
 p {
-  margin: 1.625em 0;
+  margin: 1.5em 0;
 }
 
 q {
@@ -134,11 +134,11 @@ u {
 
 ul {
   list-style-type: none;
-  margin: 1.625em 0;
-  padding-left: 1.625em;
+  margin: 1.5em 0;
+  padding-left: 1.5em;
 }
 
 ul li {
-  padding-left: 1.625em;
-  text-indent: -1.625em;
+  padding-left: 1.5em;
+  text-indent: -1.5em;
 }
