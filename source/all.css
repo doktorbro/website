@@ -1,5 +1,5 @@
 a {
-  color: #05d;
+  color: #06a;
   text-decoration: none;
 }
 
@@ -92,7 +92,7 @@ h3::before {
 }
 
 html {
-  background-color: #eee;
+  background-color: #fff;
   color: #111;
   font-family: serif;
   font-size-adjust: 0.5;
