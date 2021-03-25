@@ -27,25 +27,18 @@ body {
 }
 
 dd {
-  margin: 0;
-  padding-left: 1.5em;
-  text-indent: -1.5em;
+  margin-left: 1.5em;
 }
 
 dl {
   margin: 1.5em 0;
-  padding-left: 1.5em;
-}
-
-dt {
-  font-weight: bold;
 }
 
 footer {
   border-top-style: solid;
   border-top-width: 0.25em;
-  margin: 3.25em 0;
-  padding-top: 1.375em;
+  margin: 3em 0;
+  padding-top: 1.25em;
 }
 
 footer h2::before,
@@ -133,7 +126,8 @@ ol ol {
 }
 
 p {
-  margin: 1.5em 0;
+  margin: 0;
+  text-indent: 1.5em;
 }
 
 q {
@@ -148,7 +142,7 @@ u {
 ul {
   list-style-type: none;
   margin: 1.5em 0;
-  padding-left: 1.5em;
+  padding-left: 0;
 }
 
 ul li {
