@@ -17,7 +17,7 @@ ServerSignature Off
 
 # https://httpd.apache.org/docs/current/mod/mod_headers.html
 <IfModule mod_headers.c>
-  Header always set Content-Security-Policy "default-src 'self'"
+  Header always set Content-Security-Policy "default-src 'self'; frame-ancestors 'none'"
   Header always set Permissions-Policy "interest-cohort=()"
   Header always set X-Content-Type-Options "nosniff"
   Header always set X-Frame-Options "DENY"
