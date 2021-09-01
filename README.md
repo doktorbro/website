@@ -1,7 +1,5 @@
 # [the archive of anatol broder](https://bro.doktorbro.net/)
 
-[![Build Status](https://travis-ci.com/doktorbro/website.svg?branch=master)](https://travis-ci.com/doktorbro/website)
-
 ## unique identifiers
 
 unique identifiers must be random numbers between 0 and 999999. for a new identifier use the *generate-id* script.
