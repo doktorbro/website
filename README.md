@@ -6,7 +6,7 @@ unique identifiers must be random numbers between 0 and 999999. for a new identi
 
 ## file names
 
-file names must be formated as `r{3}/r{9}.ext` where `r` is a random digit and `ext` is a file extension. for new works use the *draft-work* script.
+file names must be formated as `r{1}/r{9}.ext` where `r` is a random digit and `ext` is a file extension. for new works use the *draft-work* script.
 
 ## favicon
 
