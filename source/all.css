@@ -88,7 +88,7 @@ html {
   background-color: #fff;
   color: #111;
   font-family: serif;
-  font-size-adjust: 0.5;
+  font-size-adjust: ex-height 0.5;
   font-variant-numeric: oldstyle-nums;
   line-height: 1.5;
   text-size-adjust: none;
