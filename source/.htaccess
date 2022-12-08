@@ -29,3 +29,9 @@ ServerSignature Off
   Header always set X-Frame-Options "DENY"
   Header always set X-XSS-Protection "1; mode=block"
 </IfModule>
+
+# https://httpd.apache.org/docs/current/mod/mod_rewrite.html
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(\d{1})\d{2}/(\d{9}\.html)$ /$1/$2 [R=301,L]
+</IfModule>
