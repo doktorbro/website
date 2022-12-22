@@ -1,5 +1,6 @@
 # https://httpd.apache.org/docs/current/mod/core.html
 AddDefaultCharset utf-8
+ErrorDocument 403 /403.html
 ErrorDocument 404 /404.html
 FileETag None
 ServerSignature Off
